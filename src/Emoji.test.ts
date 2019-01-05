@@ -2,7 +2,8 @@ import Emoji from './Emoji';
 
 const props = {
     label: 'A test tube with bubbly green contents',
-    symbol: '🧪'
+    symbol: '🧪',
+    className: 'className'
 };
 
 test('Is a defined function', () => {
