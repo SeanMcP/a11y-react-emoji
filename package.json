@@ -2,7 +2,7 @@
   "name": "reactemoji",
   "version": "1.0.0",
   "description": "An Emoji component for React applications",
-  "main": "src/index.ts",
+  "main": "main.js",
   "repository": "https://github.com/seanmcp/reactemoji",
   "author": "Sean McPherson",
   "license": "MIT",
@@ -11,5 +11,13 @@
     "@types/react-dom": "^16.0.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  }
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && mkdir ./lib && tsc"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "main.js"
+  ]
 }
