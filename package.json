@@ -1,0 +1,13 @@
+{
+  "name": "reactemoji",
+  "version": "1.0.0",
+  "description": "An Emoji component for React applications",
+  "main": "src/index.js",
+  "repository": "https://github.com/seanmcp/reactemoji",
+  "author": "Sean McPherson",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0"
+  }
+}
