@@ -1,10 +1,13 @@
 {
   "name": "reactemoji",
-  "version": "1.0.0",
-  "description": "An Emoji component for React applications",
+  "version": "0.0.1--prerelease",
+  "description": "An accessible Emoji component for React applications",
   "main": "main.js",
+  "unpkg": "main.js",
   "repository": "https://github.com/seanmcp/reactemoji",
-  "author": "Sean McPherson",
+  "homepage": "https://github.com/seanmcp/reactemoji#readme",
+  "bugs": "https://github.com/seanmcp/reactemoji/issues",
+  "author": "Sean McPherson <seanmcp25@gmail.com> (https://github.com/seanmcp)",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.3.11",
