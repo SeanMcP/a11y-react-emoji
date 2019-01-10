@@ -1,27 +1,27 @@
-# reactemoji
+# a11y-react-emoji
 
-[![npm](https://img.shields.io/npm/v/reactemoji.svg)](https://npmjs.com/package/reactemoji) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/reactemoji.svg)](https://npmjs.com/package/reactemoji) [![npm](https://img.shields.io/npm/dt/reactemoji.svg)](https://npmjs.com/package/reactemoji)
+[![npm](https://img.shields.io/npm/v/a11y-react-emoji.svg)](https://npmjs.com/package/a11y-react-emoji) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/a11y-react-emoji.svg)](https://npmjs.com/package/a11y-react-emoji) [![npm](https://img.shields.io/npm/dt/a11y-react-emoji.svg)](https://npmjs.com/package/a11y-react-emoji)
 
 ⚛️ An accessible Emoji component for React applications
 
 ## Why?
-Emojis can add a light playfulness to your project but require some specific formatting in order to ensure they are accessible for all users. `reactemoji`'s reusable `Emoji` component helps you do that quickly and painlessly.
+Emojis can add a light playfulness to your project but require some specific formatting in order to ensure they are accessible for all users. `a11y-react-emoji`'s reusable `Emoji` component helps you do that quickly and painlessly.
 
 ## Installation
-Add `reactemoji` to your project:
+Add `a11y-react-emoji` to your project:
 
 ```sh
-npm install --save reactemoji
+npm install --save a11y-react-emoji
 # or
-yarn add reactemoji
+yarn add a11y-react-emoji
 ```
 
 ## Use
-Import `Emoji`, a default export, from `reactemoji` and add it to your code:
+Import `Emoji`, a default export, from `a11y-react-emoji` and add it to your code:
 
 ```jsx
 ...
-import Emoji from 'reactemoji'
+import Emoji from 'a11y-react-emoji'
 
 function HeartFooter() {
     return (
@@ -47,13 +47,13 @@ interface EmojiProps {
 ```
 
 ## Considerations
-If you are using `reactemoji` with a CSS-in-JS library like `styled-components` or `emotion`, keep in mind that **all additional props** are passed to the JSX element.
+If you are using `a11y-react-emoji` with a CSS-in-JS library like `styled-components` or `emotion`, keep in mind that **all additional props** are passed to the JSX element.
 
 ### Styling an Emoji with `styled-components`
 
 ```jsx
 import styled, { css } from 'styled-components'
-import Emoji from 'reactemoji'
+import Emoji from 'a11y-react-emoji'
 
 const StyledEmoji = styled(({ isSpinning, ...props }) => <Emoji {...props} />)`
     font-size: 32px;

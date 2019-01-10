@@ -1,12 +1,12 @@
 {
-  "name": "reactemoji",
+  "name": "a11y-react-emoji",
   "version": "0.0.1--prerelease",
   "description": "An accessible Emoji component for React applications",
   "main": "main.js",
   "unpkg": "main.js",
-  "repository": "https://github.com/seanmcp/reactemoji",
-  "homepage": "https://github.com/seanmcp/reactemoji#readme",
-  "bugs": "https://github.com/seanmcp/reactemoji/issues",
+  "repository": "https://github.com/seanmcp/a11y-react-emoji",
+  "homepage": "https://github.com/seanmcp/a11y-react-emoji#readme",
+  "bugs": "https://github.com/seanmcp/a11y-react-emoji/issues",
   "author": "Sean McPherson <seanmcp25@gmail.com> (https://github.com/seanmcp)",
   "license": "MIT",
   "devDependencies": {
