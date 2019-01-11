@@ -1,9 +1,9 @@
 {
   "name": "a11y-react-emoji",
-  "version": "0.0.1--prerelease.0",
+  "version": "0.0.1--prerelease.1",
   "description": "An accessible Emoji component for React applications",
-  "main": "main.js",
-  "unpkg": "main.js",
+  "main": "lib/Emoji.js",
+  "unpkg": "lib/Emoji.js",
   "repository": "https://github.com/seanmcp/a11y-react-emoji",
   "homepage": "https://github.com/seanmcp/a11y-react-emoji#readme",
   "bugs": "https://github.com/seanmcp/a11y-react-emoji/issues",
@@ -25,7 +25,6 @@
   },
   "files": [
     "lib",
-    "LICENSE",
-    "main.js"
+    "LICENSE"
   ]
 }
