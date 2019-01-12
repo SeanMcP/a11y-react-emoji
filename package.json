@@ -27,5 +27,12 @@
     "index.js",
     "lib",
     "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "emoji",
+    "a11y",
+    "accessibility",
+    "accessible"
   ]
 }
