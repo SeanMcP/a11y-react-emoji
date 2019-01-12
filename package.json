@@ -1,6 +1,6 @@
 {
   "name": "a11y-react-emoji",
-  "version": "0.0.1--prerelease.4",
+  "version": "0.0.1--prerelease.5",
   "description": "An accessible Emoji component for React applications",
   "main": "index.js",
   "unpkg": "index.js",

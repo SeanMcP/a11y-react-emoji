@@ -1,2 +1,1 @@
-var Emoji = require('./lib/Emoji').default;
-exports.default = Emoji;
+module.exports = require('./lib/Emoji').default;
