@@ -1,6 +1,6 @@
 /// <reference types="react" />
 interface EmojiProps {
-    label: string;
+    label?: string;
     symbol: string;
 }
 declare function Emoji(props: EmojiProps): JSX.Element;

@@ -19,6 +19,6 @@ test('Sets aria-hidden, -label when label prop is NOT passed', () => {
 
 test('Sets aria-hidden, -label when label prop IS passed', () => {
     const output = Emoji(props);
-    expect(output.props['aria-hidden']).toMatch('false');
+    expect(output.props['aria-hidden']).toBe(null);
     expect(output.props['aria-label']).toMatch(props.label);
 });

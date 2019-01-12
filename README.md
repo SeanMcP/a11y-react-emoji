@@ -7,6 +7,16 @@
 ## Why?
 Emojis can add a light playfulness to your project but require some specific formatting in order to ensure they are accessible for all users. `a11y-react-emoji`'s reusable `Emoji` component helps you do that quickly and painlessly.
 
+## How
+The `Emoji` component wraps the provided symbol in a `span` with a `role="img"` attribute. If a label is provided, then it is passed as an `aria-label` to the span. If not, then `aria-hidden` is set to `true`.
+
+```html
+<span aria-label="a rocket blasting off" role="img">🚀</span>
+<span aria-hidden="true" role="img">🤫</span>
+```
+
+This follows the pattern recommended by [Léonie Watson](http://tink.uk/accessible-emoji/) and used by [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md).
+
 ## Installation
 Add `a11y-react-emoji` to your project:
 

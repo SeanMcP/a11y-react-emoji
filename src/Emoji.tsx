@@ -9,7 +9,7 @@ function Emoji(props: EmojiProps) {
     const { label, symbol, ...rest } = props;
     return (
         <span
-            aria-hidden={label ? 'false' : 'true'}
+            aria-hidden={label ? null : 'true'}
             aria-label={label ? label : null}
             role="img"
             {...rest}
