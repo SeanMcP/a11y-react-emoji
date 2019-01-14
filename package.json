@@ -1,9 +1,8 @@
 {
   "name": "a11y-react-emoji",
-  "version": "0.0.1--beta.0",
+  "version": "0.0.1--prerelease.7",
   "description": "An accessible Emoji component for React applications",
-  "main": "index.js",
-  "unpkg": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/seanmcp/a11y-react-emoji",
   "homepage": "https://github.com/seanmcp/a11y-react-emoji#readme",
   "bugs": "https://github.com/seanmcp/a11y-react-emoji/issues",
@@ -19,14 +18,16 @@
     "ts-jest": "^23.10.5",
     "typescript": "^3.2.2"
   },
+  "peerDependencies": {
+    "react": "16.7.0",
+    "react-dom": "^16.7.0"
+  },
   "scripts": {
     "build": "rm -rf ./lib && mkdir ./lib && tsc",
     "test": "jest"
   },
   "files": [
-    "index.js",
-    "lib",
-    "LICENSE"
+    "lib"
   ],
   "keywords": [
     "react",
