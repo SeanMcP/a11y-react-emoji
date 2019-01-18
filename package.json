@@ -1,6 +1,6 @@
 {
   "name": "a11y-react-emoji",
-  "version": "0.0.1--prerelease.7",
+  "version": "1.0.0",
   "description": "An accessible Emoji component for React applications",
   "main": "lib/index.js",
   "repository": "https://github.com/seanmcp/a11y-react-emoji",
