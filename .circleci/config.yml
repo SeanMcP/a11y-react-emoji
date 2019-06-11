@@ -1,0 +1,16 @@
+version: 2
+  build:
+    docker:
+      - image: circleci/node:10.15.3
+    steps:
+      - checkout
+      - run: yarn build
+  test:
+    docker:
+      - image: circleci/node:10.15.3
+    steps:
+      - checkout
+      - run: yarn test --coverage
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
