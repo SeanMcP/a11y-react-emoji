@@ -5,12 +5,14 @@ jobs:
       - image: circleci/node:10.15.3
     steps:
       - checkout
+      - run: yarn
       - run: yarn build
   test:
     docker:
       - image: circleci/node:10.15.3
     steps:
       - checkout
+      - run: yarn
       - run: yarn test --coverage
       - store_artifacts:
           path: coverage
