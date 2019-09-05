@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-interface IEmojiProps extends React.HTMLAttributes<HTMLSpanElement> {
+interface Props extends React.HTMLAttributes<HTMLSpanElement> {
     label?: string;
     symbol: string;
 }
 
-function Emoji(props: IEmojiProps) {
+function Emoji(props: Props) {
     const { label, symbol, ...rest } = props;
     return (
         <span
