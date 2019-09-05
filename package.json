@@ -1,39 +1,40 @@
 {
-  "name": "a11y-react-emoji",
-  "version": "1.0.2",
-  "description": "An accessible Emoji component for React applications",
-  "main": "lib/index.js",
-  "repository": "https://github.com/seanmcp/a11y-react-emoji",
-  "homepage": "https://github.com/seanmcp/a11y-react-emoji#readme",
-  "bugs": "https://github.com/seanmcp/a11y-react-emoji/issues",
-  "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^23.3.11",
-    "@types/react": "^16.7.18",
-    "@types/react-dom": "^16.0.11",
-    "jest": "^23.6.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "ts-jest": "^23.10.5",
-    "typescript": "^3.2.2"
-  },
-  "peerDependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
-  },
-  "scripts": {
-    "build": "rm -rf \"./lib\" && mkdir \"./lib\" && tsc",
-    "test": "jest"
-  },
-  "files": [
-    "lib"
-  ],
-  "keywords": [
-    "react",
-    "emoji",
-    "a11y",
-    "accessibility",
-    "accessible"
-  ]
+    "name": "a11y-react-emoji",
+    "version": "1.0.2",
+    "description": "An accessible Emoji component for React applications",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "repository": "https://github.com/seanmcp/a11y-react-emoji",
+    "homepage": "https://github.com/seanmcp/a11y-react-emoji#readme",
+    "bugs": "https://github.com/seanmcp/a11y-react-emoji/issues",
+    "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^23.3.11",
+        "@types/react": "^16.7.18",
+        "@types/react-dom": "^16.0.11",
+        "jest": "^23.6.0",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0",
+        "ts-jest": "^23.10.5",
+        "typescript": "^3.2.2"
+    },
+    "peerDependencies": {
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    },
+    "scripts": {
+        "build": "rm -rf \"./lib\" && mkdir \"./lib\" && tsc",
+        "test": "jest"
+    },
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "react",
+        "emoji",
+        "a11y",
+        "accessibility",
+        "accessible"
+    ]
 }
