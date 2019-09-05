@@ -50,7 +50,7 @@ function HeartFooter() {
 The `Emoji` component consumes two props: `symbol` and `label`. Every other prop is spread to the top-level JSX element, in this case a `<span>`.
 
 ```ts
-interface EmojiProps {
+interface Props extends React.HTMLAttributes<HTMLSpanElement> {
     label?: string; // optional
     symbol: string; // required
 }
