@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-interface EmojiProps {
+interface Props extends React.HTMLAttributes<HTMLSpanElement> {
     label?: string;
     symbol: string;
 }
 
-function Emoji(props: EmojiProps) {
+function Emoji(props: Props) {
     const { label, symbol, ...rest } = props;
     return (
         <span
-            aria-hidden={label ? null : 'true'}
-            aria-label={label ? label : null}
+            aria-hidden={label ? undefined : true}
+            aria-label={label ? label : undefined}
             role="img"
             {...rest}
         >
