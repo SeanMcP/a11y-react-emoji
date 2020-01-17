@@ -25,6 +25,9 @@
     },
     "scripts": {
         "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "preversion": "npm run test",
+        "postpublish": "git push --tags",
         "test": "jest"
     },
     "files": [
