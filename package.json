@@ -24,7 +24,7 @@
         "react-dom": "^16.7.0"
     },
     "scripts": {
-        "build": "rm -rf \"./lib\" && mkdir \"./lib\" && tsc",
+        "build": "tsc",
         "test": "jest"
     },
     "files": [
