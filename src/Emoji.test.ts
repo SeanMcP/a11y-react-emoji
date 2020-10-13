@@ -3,7 +3,7 @@ import Emoji from './Emoji';
 const props = {
     label: 'A test tube with bubbly green contents',
     symbol: '🧪',
-    className: 'className'
+    className: 'outline'
 };
 
 test('Is a defined function', () => {
@@ -21,4 +21,9 @@ test('Sets aria-hidden, -label when label prop IS passed', () => {
     const output = Emoji(props);
     expect(output.props['aria-hidden']).toBe(undefined);
     expect(output.props['aria-label']).toMatch(props.label);
+});
+
+test('Sets the passed properties on the component', () => {
+    const output = Emoji(props);
+    expect(output.props['className']).toMatch(props.className);
 });
