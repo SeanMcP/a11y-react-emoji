@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Added the `CHANGELOG.md`
+- Changed peer-dependencies for React to include versions higher than 16
 
 ## [1.1.2] - 2020-01-17
 
