@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added the `CHANGELOG.md`
 - Changed peer-dependencies for React to include versions greater than or equal to 16
 - Removed `yarn.lock`
+- Update dependencies with npm audit
 
 ## [1.1.2] - 2020-01-17
 
