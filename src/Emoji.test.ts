@@ -1,6 +1,6 @@
-import Emoji from './Emoji';
+import Emoji, { EmojiProps } from './index';
 
-const props = {
+const props: EmojiProps = {
     label: 'A test tube with bubbly green contents',
     symbol: '🧪',
     className: 'outline'
