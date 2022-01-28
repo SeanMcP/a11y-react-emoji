@@ -46,6 +46,12 @@ function HeartFooter() {
 }
 ```
 
+The named `EmojiProps` type interface is also available for import if needed:
+
+```ts
+import Emoji, { EmojiProps } from 'a11y-react-emoji'
+```
+
 ## Emoji component
 The `Emoji` component consumes two props: `symbol` and `label`. Every other prop is spread to the top-level JSX element, in this case a `<span>`.
 

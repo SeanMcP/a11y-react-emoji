@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Added the export of the `EmojiProps` interface ([@johannchopin](https://github.com/johannchopin))
+## [1.2.0] - 2022-01-28
+
+- Added an export of the `EmojiProps` interface ([@johannchopin](https://github.com/johannchopin))
 
 ## [1.1.3] - 2021-03-15
 
